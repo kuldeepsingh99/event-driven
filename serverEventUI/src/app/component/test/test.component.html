@@ -1,0 +1,16 @@
+<div class="col-md-12 main-border">
+  <div class="header-class">
+    Event Stream Example
+  </div>
+  
+  <div class="message-class" [hidden]="!message" >Purchase Requested</div>
+
+  <div class="btn-class">
+    <input class="btn btn-primary" type="button" value="Purchase" (click)="purchase()"/>
+  </div>  
+  <div class="qty-class">
+    <span>Remaning Quantity :</span>
+    <span>{{resp.quantity}}</span>
+  </div>
+</div>
+

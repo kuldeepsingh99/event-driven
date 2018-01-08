@@ -1,0 +1,29 @@
+.main-border {
+    border: 1px solid #000;
+    top: 50%;
+    left: 50%;
+    width: 420px;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+
+.header-class {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.btn-class {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.message-class {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.qty-class {
+    text-align: center;
+}
